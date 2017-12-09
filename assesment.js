@@ -13,6 +13,7 @@
         }
 
         removeAllChildren(resultArea);
+        removeAllChildren(tweetArea);
 
         const header = document.createElement('h3');
         header.innerText = '診断結果';
